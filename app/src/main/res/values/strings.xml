@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LionSchool</string>
+    <string name="name_school">Lion School</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+</resources>
