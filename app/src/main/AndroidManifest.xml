@@ -12,7 +12,7 @@
         android:theme="@style/Theme.LionSchool"
         tools:targetApi="31">
         <activity
-            android:name=".StudentsActivity"
+            android:name=".ui.theme.StudentsActivity"
             android:exported="false"
             android:label="@string/title_activity_students"
             android:theme="@style/Theme.LionSchool" />

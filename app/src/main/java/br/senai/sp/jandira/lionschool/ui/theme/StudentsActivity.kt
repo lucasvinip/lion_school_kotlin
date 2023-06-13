@@ -59,13 +59,9 @@ fun StudentsScreen() {
                 ) {
                     Row(
                         modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.Center
 
                     ) {
-                        Image(
-                            painter = painterResource(id = R.drawable.back),
-                            contentDescription = "",
-                            alignment = Alignment.Center
-                        )
                         Text(
                             text = stringResource(id = R.string.nets),
                             color = Color.White,
@@ -92,7 +88,7 @@ fun StudentsScreen() {
                         width = 1.dp,
                         color = Color.Blue
                     )
-                ){
+                ) {
                     Text(
                         text = stringResource(id = R.string.all),
                         fontSize = 12.sp
@@ -111,7 +107,7 @@ fun StudentsScreen() {
                         width = 1.dp,
                         color = Color.Blue
                     )
-                ){
+                ) {
                     Text(
                         text = stringResource(id = R.string.studying),
                         fontSize = 12.sp
@@ -130,7 +126,7 @@ fun StudentsScreen() {
                         width = 1.dp,
                         color = Color.Blue
                     )
-                ){
+                ) {
                     Text(
                         text = stringResource(id = R.string.finished),
                         fontSize = 12.sp
@@ -142,12 +138,7 @@ fun StudentsScreen() {
                     .fillMaxWidth()
                     .height(2.dp)
                     .background(Color(51, 71, 176))
-            ) {
-
-            }
-            LazyColumn() {
-
-            }
+            ) {}
         } // primeira column
     } // surface
 } // StudentsScreen
